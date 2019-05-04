@@ -1,37 +1,72 @@
-## Welcome to GitHub Pages
+方忆灵	 
+31岁   |	男   |	硕士   |	5年经验	
+13588223354   	
 
-You can use the [editor on GitHub](https://github.com/nick-fang/nick-fang.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# 个人优势
+1. 双一流大学、英语六级、中共党员，责任心强、擅长自学和写文档；
+2. 自学python和C语言一年半，于heroku平台成功部署flask app和django app；
+3. 掌握python标准库62个；掌握两种web框架、requests爬虫、selenium测试、socket编程、asycio异步、redis缓存、ZeroMQ消息队列；掌握html/css、git bash、SQL CRUD。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# 期望职位
+Python  杭州  7k-8k  数据服务·社交网络·互联网
 
-### Markdown
+# 工作经历
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  联合签证申请中心-杭州
+  签证	2016.04—2017.11
+内容：
+1. 工作内容：先后负责希腊、丹麦、芬兰、克罗地亚、立陶宛等5国的签证申请柜台受理；
+2. 上份工作的最大挑战：17年3月希腊签证团队突然离职，我在1个月之内快速掌握了25页英文pdf+数份中文doc+4种英文软件，完成交接，并因此升职；
+3. 上份工作的最大成就：带领签证中心的希腊团队，5~7月间以6.7%的员工占比消化掉中心12.2%的申请量，团队成员人均消化掉756份签证申请。
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# 项目经历
 
-- Bulleted
-- List
+## Flask-社交博客
+  独立开发	2019.01—2019.04
+描述：根据《Flask Web开发：基于Python的Web应用开发实战》第二版教材的指导，使用VS 2017构建python环境，创建了一个类似twitter的社交博客app，成功部署到heroku平台上。
+该app实现了以下功能：
+- 邮件系统，用户注册帐户、更改密码时会收到app系统发送的认证邮件，需要点击邮件中的链接才能完成相应操作，且发送邮件使用了多线程，以防用户界面卡顿；
+- 权限系统，注册用户分为普通用户、协管员、管理员3档，普通用户可以发帖、评论帖子、关注别人，协管员可以屏蔽或解除屏蔽任意评论，管理员具有所有权限；
+- 限制访问，只允许登陆用户发帖，只允许登录用户修改自己的帖子，但是管理员可以修改任意用户的帖子；
+- 头像系统，每位注册用户都能自动获得gravatar服务器分配的唯一头像，随机头像的样式仅与用户的注册邮箱有关；
+- 统一的导航栏，上设有主页、个人主页、登陆、登出、更改密码等功能，协管员和管理员还享有评论管理功能；
+- 个人主页，点击用户头像，可以进入该用户的个人主页，包含个人简介和自己的发帖记录，管理员有权编辑任何用户的个人简介；
+- 社交系统，每位用户都可以关注或取消关注任意用户；
+- 评论系统，用户可以对任意一个帖子进行评论，当评论数量过多时，app系统会自动进行分页；
+- 帖子和评论均支持Markdown语法，且能够实时预览；
+- 使用selenium进行单元测试。
 
-1. Numbered
-2. List
+项目成就：
+1. 构建flask app的邮件系统时，由于国内无法使用gmail，因此我先后尝试了126和QQ邮件服务器，顺带学习并掌握了python的smtplib库；
+2. 通过实现用户的关注系统，我对数据库中的“多对多关系”有了进一步的了解；
+3. 在部署到heroku后，发现自己对代码的修改无法应用到heroku上，事后系统学习Git后，才发现当时的git仓库处于detached HEAD状态，于是通过创建新分支、提交、推送等操作，解决问题；
+4. 访问部署的app失败，报错信息跟PostgreSQL，通过查询StackOverflow，得知自己使用的requirements.txt已过时，通过更新该文件，解决问题。
 
-**Bold** and _Italic_ and `Code` text
+项目链接：https://github.com/nick-fang/flasky_twitter
 
-[Link](url) and ![Image](src)
-```
+## Django-学习笔记
+  独立开发	2018.05—2018.06
+描述：根据《Python编程：入门到实践》教材的指导，使用VS 2017构建python环境，创建了一个学习笔记app，成功部署到heroku平台上。
+该app实现了以下功能：
+- 帐户系统，每位用户都可以创建自己的帐户，并在该帐户下新建自己的学习主题和条目；
+- 限制访问，只允许登陆用户访问自己的学习笔记；
+- 条目关联主题，每个条目必定属于某一个主题，类似于OneNote中的“页和分区”；
+- 可修改，允许用户修改已经创建的主题和条目；
+- 统一的导航栏，上设有主页、注册、登陆、登出等功能；
+- 导航栏上的功能布局，能够随用户的登陆状态而作相应改变；
+- 导航栏在窄屏幕的终端设备上会自动折叠，比如手机；
+- 自定义的404和500错误页面，发生错误访问时，页面仍旧能够显示导航栏。
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+项目成就：
+1. 教材中的部分模块和方法已过时（比如url函数、views.login函数），因此我自学django官方文档，并重现了书本上的功能；
+2. 教材上的heroku部署方法已过时，因此我自学heroku网站给出的文档，成功将app部署上去；
+3. 没有使用教材指定的IDE搭建python环境，而是使用了VS 2017，因此我熟悉了visual studio的那一套流程。
 
-### Jekyll Themes
+项目链接：https://github.com/nick-fang/django_learning_log
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nick-fang/nick-fang.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+# 教育经历
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+  南京林业大学
+  林木遗传育种 | 硕士	2010—2013
+  
