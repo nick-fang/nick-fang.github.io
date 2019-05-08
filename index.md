@@ -5,7 +5,7 @@
 # 个人优势
 1. 双一流大学、英语六级、中共党员，责任心强、擅长自学和写文档；
 2. 自学python和C语言一年半，于heroku平台成功部署flask app和django app；
-3. 掌握python标准库62个；掌握两种web框架、requests爬虫、selenium测试、socket编程、asycio异步、redis缓存、ZeroMQ消息队列；掌握html/css、git bash、SQL CRUD。
+3. 掌握python标准库64个；掌握两种web框架、requests爬虫、selenium测试、socket编程、asycio异步、redis缓存、ZeroMQ消息队列；掌握html/css、Git bash、SQL CRUD。
 
 # 期望职位
 Python  杭州  7k-8k  数据服务·社交网络·互联网
