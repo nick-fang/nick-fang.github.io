@@ -5,7 +5,7 @@
 # 个人优势
 1. 双一流大学、英语六级、中共党员，责任心强、擅长自学和写文档；
 2. 自学python和C语言一年半，于heroku平台成功部署flask app和django app；
-3. 掌握python标准库64个；掌握两种web框架、requests爬虫、selenium测试、socket编程、asycio异步、redis缓存、ZeroMQ消息队列；掌握html/css、Git bash、SQL CRUD。
+3. 掌握python标准库64个；掌握两种web框架、requests爬虫、selenium测试、并发编程、异步socket编程、asycio事件循环、redis缓存、ZeroMQ消息队列；掌握html/css/bootstrap、Git bash、SQL CRUD、Linux shell；了解TCP/IP/UDP/SSL/HTTP/SMTP协议。
 
 # 期望职位
 Python  杭州  7k-8k  数据服务·社交网络·互联网
@@ -70,3 +70,72 @@ Python  杭州  7k-8k  数据服务·社交网络·互联网
   南京林业大学
   林木遗传育种 | 硕士	2010—2013
   
+
+# 掌握技能汇总表
+
+掌握的语法和技术 | 掌握的python标准库 | 掌握的第三方库 |
+| - | - | - |
+| 协程 | string | django及其插件 |
+| 异步上下文管理器 | re | flask及其插件 |
+| socket编程 | unicodedata | jinja2 |
+| select I/O多路复用 | struct | werkzeug |
+| asyncio事件循环编程 | datetime | bottle |
+| 异步TCP服务器 | calendar | SQLAlchemy |
+| concurrent.futures并发编程 | collection | gunicorn |
+| GIL锁 | collection.abc | psycopg2 |
+| 信号量 | heapq | httpbin |
+| 生产者-消费者模式 | bisect | requests |
+| 在线程池中运行事件循环 | array | selenium |
+| WSGI API | copy | beautifulsoup4 |
+| 可hash对象 | pprint | lxml |
+| 深/浅复制 | enum | aiohttp |
+| 强/弱引用 | numbers | aiofiles |
+| 垃圾回收机制 | math | gevent |
+| 驻留 | random | memcache |
+| try-except-else-finally结构 | itertools | redis |
+| raise from | functools | ZeroMQ |
+| 闭包 | operator | yaml |
+| 参数化的装饰器 | os.path | pyperclip |
+| 高阶数据结构（namedtuple、deque等） | glob | matplotlib |
+| 鸭子类型 | shutil | pytest |
+| 抽象基类 | pickle | ipython |
+| 迭代器协议 | shelve | pylint |
+| 生成器协议 | dbm | pep8 |
+| 序列协议 | sqlite3 | mypy |
+| 上下文管理器协议 | csv | jupyter |
+| 类型注解 | configparser |  |
+| 多重继承 | hashlib |  |
+| property/特性 | os |  |
+| 高阶函数 | time |  |
+| 推导式 | argparse |  |
+| 可调用对象 | logging |  |
+| 递归函数 | getpass |  |
+| lambda函数 | threading |  |
+| itertools和functools下的函数式编程 | multiprocessing |  |
+| 命名空间包 | concurrent.futures |  |
+| 相对导入 | subprocess |  |
+| pip包管理 | queue |  |
+| argparse编写脚本 | asyncio |  |
+| 正则表达式 | socket |  |
+| struct处理二进制数据 | ssl |  |
+| 单元测试 | select |  |
+| 日志记录 | signal |  |
+| pep8代码风格 | selectors |  |
+| 爬虫 | email |  |
+| web开发 | json |  |
+| Heroku部署 | base64 |  |
+| 批处理脚本编写 | wsgiref |  |
+| Git管理代码 | urllib.parse |  |
+| 关系型数据库 | urllib.request |  |
+| 非关系型数据库 | smtplib |  |
+| html/css | uuid |  |
+| bootstrap | socketserver |  |
+| http协议 | http.server |  |
+| Linux shell | turtle |  |
+|  | doctest |  |
+|  | unittest |  |
+|  | timeit |  |
+|  | venv |  |
+|  | sys |  |
+|  | contextlib |  |
+|  | inspect |  |
