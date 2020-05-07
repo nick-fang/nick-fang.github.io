@@ -1,16 +1,20 @@
 方忆灵
-30岁   |	男   |	硕士   |	4年经验  
-135****3354
+31岁   |	男   |	硕士   |	6年工作经验  
+13588223354
 
 # 个人优势
-1. 双一流大学、英语六级、中共党员，责任心强、擅长自学和写文档；
-2. 自学python和C语言一年半，于heroku平台成功部署flask app和django app；
-3. 掌握python标准库64个；掌握两种web框架、requests爬虫、selenium测试、并发编程、异步socket编程、asycio事件循环、redis缓存、ZeroMQ消息队列；掌握html/css/bootstrap、Git bash、SQL CRUD、Linux shell；了解TCP/IP/UDP/SSL/HTTP/SMTP协议。
-
-# 期望职位
-Python  杭州  7k-8k  数据服务·社交网络·互联网
+1. 双一流大学、英语六级、普通话二乙、中共党员，责任心强，具有1年的编程工作经验和2年的英语工作经验；
+2. 掌握或熟悉多门编程语言，包括Python、Javascript、MySQL、C语言、HTML、CSS、Excel、正则表达式；
+3. 掌握或熟悉75个Python标准库；掌握django、flask、requests爬虫、selenium测试、并发编程、socket编程、asycio事件循环、redis缓存、ZeroMQ消息队列；了解Git、Linux shell；了解TCP/IP/UDP/SSL/HTTP/SMTP协议。
 
 # 工作经历
+
+  杭州学慧苑教育科技有限公司
+  网络程序员	2019.05-2020.03
+内容：
+1. 工作内容：英语课本数据的采集、校对、转换，数据库结构设计（协助），python后端的慢查询代码优化（协助），编写微信小程序，编写excel函数和word宏，培训外包的英文编辑。
+2. 上份工作的最大挑战：设计英语中考口语考试系统的excel结构及数据库结构。该excel表需要容纳一系列动态信息：比如区分口语试题中的发声文本和不发声文本，发声后的等待时间，播放题目要求还是短文，何时开启录音引擎等。为了实现“随机组卷”功能，每道题还需要进行模块化设计。
+3. 上份工作的最大成就：优化了同事的django项目中的数据库慢查询代码，在不更改字段类型和数据的前提下，学生的3种学习数据统计图（单词学习量、单词掌握量、周/月/季度学习时间）的性能分别提升至原来的3倍、7倍、7倍，从而解决了统计图页面的502错误。  
 
   联合签证申请中心-杭州
   签证	2016.04—2017.11
@@ -80,62 +84,73 @@ Python  杭州  7k-8k  数据服务·社交网络·互联网
 | socket编程 | unicodedata | jinja2 |
 | select I/O多路复用 | struct | werkzeug |
 | asyncio事件循环编程 | datetime | bottle |
-| 异步TCP服务器 | calendar | SQLAlchemy |
-| concurrent.futures并发编程 | collection | gunicorn |
+| concurrent.futures并发编程 | calendar | SQLAlchemy |
+| multiprocessing.Manage分布式计算 | collection | gunicorn |
 | GIL锁 | collection.abc | psycopg2 |
 | 信号量 | heapq | httpbin |
 | 生产者-消费者模式 | bisect | requests |
 | 在线程池中运行事件循环 | array | selenium |
-| WSGI API | copy | beautifulsoup4 |
-| 可hash对象 | pprint | lxml |
-| 深/浅复制 | enum | aiohttp |
-| 强/弱引用 | numbers | aiofiles |
-| 垃圾回收机制 | math | gevent |
-| 驻留 | random | memcache |
-| try-except-else-finally结构 | itertools | redis |
-| raise from | functools | ZeroMQ |
-| 闭包 | operator | yaml |
-| 参数化的装饰器 | os.path | pyperclip |
-| 高阶数据结构（namedtuple、deque等） | glob | matplotlib |
-| 鸭子类型 | shutil | pytest |
-| 抽象基类 | pickle | ipython |
-| 迭代器协议 | shelve | pylint |
-| 生成器协议 | dbm | pep8 |
-| 序列协议 | sqlite3 | mypy |
-| 上下文管理器协议 | csv | jupyter |
-| 类型注解 | configparser |  |
-| 多重继承 | hashlib |  |
-| property/特性 | os |  |
-| 高阶函数 | time |  |
-| 推导式 | argparse |  |
-| 可调用对象 | logging |  |
-| 递归函数 | getpass |  |
-| lambda函数 | threading |  |
-| itertools和functools下的函数式编程 | multiprocessing |  |
-| 命名空间包 | concurrent.futures |  |
-| 相对导入 | subprocess |  |
-| pip包管理 | queue |  |
-| argparse编写脚本 | asyncio |  |
-| 正则表达式 | socket |  |
-| struct处理二进制数据 | ssl |  |
-| 单元测试 | select |  |
-| 日志记录 | signal |  |
-| pep8代码风格 | selectors |  |
-| 爬虫 | email |  |
-| web开发 | json |  |
-| Heroku部署 | base64 |  |
-| 批处理脚本编写 | wsgiref |  |
-| Git管理代码 | urllib.parse |  |
-| 关系型数据库 | urllib.request |  |
-| 非关系型数据库 | smtplib |  |
-| html/css | uuid |  |
-| bootstrap | socketserver |  |
-| http协议 | http.server |  |
-| Linux shell | turtle |  |
-|  | doctest |  |
-|  | unittest |  |
-|  | timeit |  |
-|  | venv |  |
-|  | sys |  |
-|  | contextlib |  |
-|  | inspect |  |
+| tkinter GUI编程 | copy | beautifulsoup4 |
+| cx_freeze打包可执行程序 | pprint | lxml |
+| WSGI API | enum | aiohttp |
+| 可hash对象 | numbers | aiofiles |
+| 深/浅复制 | math | gevent |
+| 强/弱引用 | random | memcache |
+| 垃圾回收机制 | itertools | redis |
+| 驻留 | functools | ZeroMQ |
+| try-except-else-finally结构 | operator | yaml |
+| raise from | os.path | pyperclip |
+| 闭包函数 | glob | matplotlib |
+| 参数化的装饰器 | shutil | pytest |
+| 高阶数据结构（namedtuple、deque等） | pickle | ipython |
+| 鸭子类型 | shelve | pylint |
+| 抽象基类 | dbm | pep8 |
+| 迭代器协议 | sqlite3 | mypy |
+| 生成器协议 | csv | jupyter |
+| 序列协议 | configparser | cx_freeze |
+| 上下文管理器协议 | hashlib | PyInstaller |
+| 类型注解 | os |  |
+| 多重继承 | time |  |
+| property/特性 | argparse |  |
+| 高阶函数 | logging |  |
+| 推导式 | getpass |  |
+| 可调用对象 | threading |  |
+| 递归函数 | multiprocessing |  |
+| lambda函数 | multiprocessing.Manager |
+| itertools和functools下的函数式编程 | concurrent.futures |  |
+| 命名空间包 | subprocess |  |
+| 相对导入 | queue |  |
+| pip包管理 | asyncio |  |
+| argparse编写脚本 | socket |  |
+| 正则表达式 | ssl |  |
+| struct处理二进制数据 | select |  |
+| 单元测试 | selectors |  |
+| selenium测试 | signal |  |
+| 日志记录 | email |  |
+| pep8代码风格 | json |  |
+| requests爬虫 | base64 |  |
+| Django web开发 | wsgiref |  |
+| Flask web开发 | urllib.parse |  |
+| Heroku网站部署 | urllib.request |  |
+| 批处理脚本编写 | smtplib |  |
+| Git管理代码 | uuid |  |
+| MySQL | socketserver |  |
+| 非关系型数据库 | http.server |  |
+| redis缓存 | turtle |  |
+| ZeroMQ消息队列 | doctest |  |
+| html/css | unittest |  |
+| JavaScript | timeit |  |
+| 微信小程序 | venv |  |
+| C语言 | sys |  |
+| http协议 | contextlib |  |
+| Linux shell | inspect |  |
+| Excel函数 | decimal |  |
+| Excel数据透视表 | fractions |  |
+| Word正则表达式查找替换 | pip |  |
+| Word录制宏 | difflib |  |
+|  | filecmp |  |
+|  | webbrowser |  |
+|  | fileinput |  |
+|  | tkinter |  |
+|  | tkinter.ttk |  |
+|  | weakref |  |
