@@ -1,11 +1,17 @@
 方忆灵
-31岁   |	男   |	硕士   |	6年工作经验  
+31岁   |	男   |	硕士   |	1年编程工作经验  
 13588223354
 
 # 个人优势
 1. 双一流大学、英语六级、普通话二乙、中共党员，责任心强，具有1年的编程工作经验和2年的英语工作经验；
-2. 掌握或熟悉多门编程语言，包括Python、Javascript、MySQL、C语言、HTML、CSS、Excel、正则表达式；
-3. 掌握或熟悉75个Python标准库；掌握django、flask、requests爬虫、selenium测试、并发编程、socket编程、asycio事件循环、redis缓存、ZeroMQ消息队列；了解Git、Linux shell；了解TCP/IP/UDP/SSL/HTTP/SMTP协议。
+2. 语言基础：掌握Python、Javascript、SQL、C等编程语言，掌握或熟悉75个Python标准库，理解面向对象编程，理解函数式编程，掌握生成器、闭包、装饰器、协程、鸭子类型、抽象基类等高级语法
+3. 网络基础：掌握socket并发编程、selectors多路复用、asyncio异步编程，掌握redis缓存，掌握ZeroMQ消息队列，了解multiprocessing.managers分布式计算，了解IP、TCP、UDP、SSL、HTTP协议
+4. 测试：掌握unittest、doctest等测试框架，掌握requests、selenium等测试工具，了解Django的测试驱动开发
+5. 数据库：掌握MySQL和SQLite数据库，掌握Django ORM和SQLalchemy等ORM框架，成功优化过公司的MySQL慢查询代码
+6. GUI编程：掌握Tkinter等GUI库，掌握cx_Freeze、PyInstaller等打包工具
+7. Web开发：掌握Django和Flask等web框架，熟悉HTML、CSS、JavaScript等前端语言，开发过微信小程序
+8. 部署：在Heroku云平台上成功部署过Django项目和Flask项目，了解Gunicorn、uWSGI、Nginx等服务器软件
+9. 其他：熟悉Git常用命令，了解Linux shell，掌握正则表达式，掌握Excel的数据透视表
 
 # 工作经历
 
